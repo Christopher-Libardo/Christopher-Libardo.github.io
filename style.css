@@ -1,0 +1,156 @@
+
+body{
+	
+	background-image: url("blue_bg.jpg");
+    background-repeat:no-repeat;/* appears once*/
+	background-position:top center;
+	background-size:cover;	
+	position:relative;
+	background-attachment:fixed;/*fixed = img stays elements move, scroll= img moves w elements*/
+	/*background-color:#b3cccc;*/
+    margin: 0 auto;
+	height: auto;
+		/*background: url () no-repeat top center (same thing above);*/
+	/*background-color:#ccccff*/;
+   /*"https://www.clipartsgram.com/image/840125329-indie-tarot-website-background2.jpg*/
+}
+
+
+
+h1{text-align: center;}
+
+ul{
+/*border-style:ridge;frame*/
+	border-style:double;
+	background-color:#3c6ab2;
+   top: -16px;
+	text-align:center; 
+	position:relative;	
+}
+
+
+
+.doc
+{
+	background-size: cover;
+
+	
+	
+}
+
+.resume
+{
+	background-position:block;
+	top: -20px;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+li:hover{
+	background-color:#2d4f84;
+	transition-delay:0.2s;
+} 
+
+ li:active{
+	background-color:#4677c9;
+	
+ }
+	
+
+
+/*.info{position:fixed;}use for postioning*/
+
+li{
+	text-decoration:none;
+	width: 160px;
+	height: 33px;
+	text-align: center;
+	display:inline-block;
+	font-weight:bold;
+	font-family:  Garamond;
+	margin-right:70px;
+	font-size: 18px;
+	 white-space: nowrap ;
+	
+	
+
+}
+.water{
+	margin: 0 50%;
+	padding: 10px 10px;
+	width:100px;
+	height:100px;
+	opacity:0.8;
+	float: right;
+	display:block /*block element centered*/
+	
+}
+
+.text {
+	font-size:20px;
+	font-family: "Palatino Linotype";
+	max-width: 600px;
+	min-height:200px;
+	/*border: 5px rgb(22, 77, 100);
+	border-style:ridge;
+	border-radius:15px; 100px = circle*/
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	
+	
+
+/*margin:auto;  centered*/
+}
+
+.title{
+	font-size: 40px;
+	text-align: center;
+	font-family:  Courier New; 
+	
+	
+}
+
+.logo {display:	inline-block;
+margin: 0 auto;
+display:block;
+
+
+}
+
+
+
+.header
+{
+	
+font-size: 20px;
+	text-align: left;
+	font-family:  Courier New; 
+}
+
+.video
+{
+	position: center;
+
+
+/*solid - border is a solid line.
+dashed - border is a series of lines or dashes.
+dotted - border is a series of square dots.
+double - border is two solid black lines.
+groove - border is a groove (or carving).
+inset - border appears to cut into the screen.
+outset - border appears to pop out of the screen.
+ridge - border appears as a picture frame.
+hidden or none - no border.
+(top: 3 pixels, right: 1 pixel, bottom: 2 pixels, left: 1 pixel).
+ border: 3px solid rgb(22, 77, 100);
+ Padding is the spacing between a box's content and the borders of the box.
+ Margin is the spacing directly outside of a box's borders.
+ GRADIENT background-image: -webkit-linear-gradient(#666CCC, #BC1324);
+
+*/
