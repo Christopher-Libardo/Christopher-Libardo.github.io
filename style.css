@@ -68,11 +68,11 @@ li:hover{
 li{
 	text-decoration:none;
 	width: 160px;
-	height: 33px;
+	height: 45px;
 	text-align: center;
 	display:inline-block;
 	font-weight:bold;
-	font-family:  Garamond;
+	font-family:  Consolas;
 	margin-right:70px;
 	font-size: 18px;
 	 white-space: nowrap ;
