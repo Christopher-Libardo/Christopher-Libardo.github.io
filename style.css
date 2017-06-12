@@ -77,10 +77,6 @@ li{
 	font-size: 18px;
 	white-space: nowrap ;
 	table-layout: fixed; 
-	
-	
-	
-
 }
 .water{
 	margin: 0 50%;
@@ -105,7 +101,7 @@ li{
 	text-align: justify;
 	margin: 0 auto;
         line-height: 40px;
-	letter-spacing: 0.7em;
+	letter-spacing: 0.08em;
 	
 	
 
