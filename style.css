@@ -21,6 +21,7 @@ h1{text-align: center;}
 
 ul{
 /*border-style:ridge;frame*/
+	/*border-style:double;*/
 	background-color:#3c6ab2;
    top: -16px;
 	text-align:center; 
@@ -39,7 +40,7 @@ ul{
 
 .resume
 {
-	background-position:center center;
+	background-position:block;
 	top: -20px;
 }
 
@@ -67,11 +68,11 @@ li:hover{
 li{
 	text-decoration:none;
 	width: 160px;
-	height: 40px;
+	height: 33px;
 	text-align: center;
 	display:inline-block;
 	font-weight:bold;
-	font-family:Garamond;
+	font-family:  Garamond;
 	margin-right:70px;
 	font-size: 18px;
 	 white-space: nowrap ;
@@ -91,10 +92,10 @@ li{
 }
 
 .text {
-	font-size:18px;
+	font-size:20px;
 	font-family: "Palatino Linotype";
 	max-width: 600px;
-	min-height:50px;
+	min-height:200px;
 	/*border: 5px rgb(22, 77, 100);
 	border-style:ridge;
 	border-radius:15px; 100px = circle*/
@@ -108,7 +109,7 @@ li{
 }
 
 .title{
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 	font-family:  Courier New; 
 	
