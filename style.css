@@ -23,8 +23,8 @@ ul{
 /*border-style:ridge;frame*/
 	/*border-style:double;*/
 	/*background-color:#3c6ab2;*/
-	background-image: url('https://www.franklinmedicalcentre.com/wp-content/uploads/Grey-Background-106.jpg');
-	background-position:right center;
+	background-image: url('http://cinderwick.ca/files/moto/Wallpaper/Abstract/Polygon-Background3.jpg');
+	background-position:  center center;
     background-size:cover;
 	top: -16px;
 	text-align:center; 
@@ -73,18 +73,18 @@ li:hover{
 
 li{
 	text-decoration:none;
-	width: 178px;
-	height: 40px;
+	width: 187px;
+	height: 45px;
 	text-align: center;
 	display:inline-block;
 	font-weight:bold;
 	font-family:'Garamond';
 	margin-right:70px;
-	font-size: 18px;
+	font-size: 19px;
 	white-space: nowrap ;
 	table-layout: fixed; 
 	letter-spacing: 0.07em;
-	line-height:35px;
+	line-height:40px;
 	
 	
 
