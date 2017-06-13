@@ -22,10 +22,14 @@ h1{text-align: center;}
 ul{
 /*border-style:ridge;frame*/
 	/*border-style:double;*/
-	background-color:#3c6ab2;
-   top: -16px;
+	/*background-color:#3c6ab2;*/
+	background-image: url('https://www.franklinmedicalcentre.com/wp-content/uploads/Grey-Background-106.jpg');
+	background-position:right center;
+    background-size:cover;
+	top: -16px;
 	text-align:center; 
 	position:relative;	
+	
 }
 
 
@@ -52,8 +56,10 @@ a{
 
 
 li:hover{
-	background-color:#2d4f84;
+	background-color:#72767c;
 	transition-delay:0.2s;
+	
+	
 } 
 
  li:active{
@@ -67,17 +73,22 @@ li:hover{
 
 li{
 	text-decoration:none;
-	width: 177px;
-	height: 33px;
+	width: 178px;
+	height: 35px;
 	text-align: center;
 	display:inline-block;
 	font-weight:bold;
-	font-family:Garamond;
+	font-family:'Garamond';
 	margin-right:70px;
 	font-size: 18px;
 	white-space: nowrap ;
 	table-layout: fixed; 
 	letter-spacing: 0.07em;
+	
+	
+
+	
+
 }
 .water{
 	margin: 0 50%;
@@ -101,7 +112,7 @@ li{
 	color: black;
 	text-align: justify;
 	margin: 0 auto;
-        line-height: 40px;
+	line-height: 40px;
 	letter-spacing: 0.08em;
 	
 	
@@ -110,7 +121,7 @@ li{
 }
 
 .title{
-	font-size: 30px;
+	font-size: 25px;
 	text-align: justify;
 	font-family:  Courier New; 
 	
