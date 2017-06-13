@@ -74,7 +74,7 @@ li:hover{
 li{
 	text-decoration:none;
 	width: 178px;
-	height: 45px;
+	height: 40px;
 	text-align: center;
 	display:inline-block;
 	font-weight:bold;
@@ -84,6 +84,7 @@ li{
 	white-space: nowrap ;
 	table-layout: fixed; 
 	letter-spacing: 0.07em;
+	line-height:35px;
 	
 	
 
