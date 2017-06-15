@@ -1,4 +1,5 @@
 
+
 body{
 	
 	background-image: url("blue_bg.jpg");
@@ -7,7 +8,8 @@ body{
 	background-size:cover;	
 	position:relative;
 	background-attachment:fixed;/*fixed = img stays elements move, scroll= img moves w elements*/
-	/*background-color:#b3cccc;*/    margin: 0 auto;
+	/*background-color:#b3cccc;*/
+    margin: 0 auto;
 	height: auto;
 		/*background: url () no-repeat top center (same thing above);*/
 	/*background-color:#ccccff*/;
@@ -16,18 +18,24 @@ body{
 
 
 
-h1{text-align: center;}
+h1{text-align: center;
+font-size: 40px;
+font-family:Courier New;}
+
 ul{
 /*border-style:ridge;frame*/
-	/*border-style:double;*/	/*background-color:#3c6ab2;*/
+	/*border-style:double;*/
+	/*background-color:#3c6ab2;*/
 	background-image: url('http://cinderwick.ca/files/moto/Wallpaper/Abstract/Polygon-Background3.jpg');
 	background-position:  center center;
     background-size:cover;
 	top: -16px;
-	text-align:center; 
+	text-align:right; 
 	position:relative;	
 	
 }
+
+
 
 .doc
 {
@@ -37,27 +45,30 @@ ul{
 	
 }
 
-.resume{
-	background-position:block;	top: -20px;
+.resume
+{
+	background-position:block;
+	top: -20px;
 }
 
 a{
 	text-decoration:none;
 	color:white;
-	width: 100%;	height: 100%;}
+}
 
 
 
-li:hover{
+li:hover a{
 	background-color:#72767c;
 	transition-delay:0.2s;
-	
+    padding: 15.5px;
+	margin: 0 auto;
 	
 } 
 
- li:active{
+ li:active a{
 	background-color:#4677c9;
-	
+	padding: 17px 7px;
  }
 	
 
@@ -66,23 +77,25 @@ li:hover{
 
 li{
 	text-decoration:none;
-	width:200px;
+	width: 110px;
 	height: 45px;
-	text-align: center;
 	display:inline-block;
+	text-align: center;
 	font-weight:bold;
-	font-family:'Helvetica';
-	font-size: 19px;
+	font-family:'Helvetica	';
+	font-size: 17px;
 	white-space: nowrap ;
 	table-layout: fixed; 
-	letter-spacing: 0.07em;
+	letter-spacing: 0.06em;
 	line-height:40px;
+	margin-right: 90px;
 	
-	
-
-	
-
 }
+
+.nav {
+	float: right;
+	}
+	
 .water{
 	margin: 0 50%;
 	padding: 10px 10px;
@@ -114,9 +127,11 @@ li{
 }
 
 .title{
-	font-size: 25px;
+	font-size: 30px;
 	text-align: justify;
 	font-family:  Courier New; 
+	margin: 0 auto;
+	max-width: 600px;
 	
 	
 }
@@ -127,14 +142,12 @@ position: center;
 }
 
 
-
-.header
+.name
 {
-	
-font-size: 20px;
-	text-align: left;
-	font-family:  Courier New; 
+	float: left;
+
 }
+
 
 .video
 {
