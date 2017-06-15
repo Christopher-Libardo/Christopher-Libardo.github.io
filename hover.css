@@ -123,8 +123,16 @@
   -webkit-animation-direction: normal, alternate;
 
   animation-direction: normal, alternate;
+  background-color:#65686d; 	
+  cursor: auto;
+  z-index: 2;
+  
+}
 
-}/* Pop */
+
+
+
+/* Pop */
 @-webkit-keyframes hvr-pop {
   50% {
     -webkit-transform: scale(1.2);
