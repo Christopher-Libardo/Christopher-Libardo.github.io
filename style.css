@@ -53,15 +53,19 @@
 	a{
 		text-decoration:none;
 		color:white;
+		width: 100%;
+        height: 100%;
+	    cursor: auto;
+		z-index: 2;
 	}
 
 
 
-	li:hover a{
+	/*li:hover a{
 		background-color:#72767c;
 		transition-delay:0.2s;
 		padding: 15.5px;
-		margin: 0 auto;
+		margin: 0 auto;*/
 		
 	} 
 
@@ -74,7 +78,8 @@
 
 	/*.info{position:fixed;}use for postioning*/
 
-	li{
+	li, .button
+		{
 		text-decoration:none;
 		width: 110px;
 		height: 45px;
@@ -88,6 +93,8 @@
 		letter-spacing: 0.06em;
 		line-height:40px;
 		margin-right: 90px;
+		z-index: 1;
+		
 		
 	}
 
@@ -143,8 +150,22 @@
 
 	.name
 	{
-		float: left;
-
+		
+        float: left;
+	    text-decoration:none;
+		width: 110px;
+		height: 45px;
+		display:inline-block;
+		text-align: center;
+		font-weight:bold;
+		font-family:'Helvetica	';
+		font-size: 17px;
+		white-space: nowrap ;
+		table-layout: fixed; 
+		letter-spacing: 0.06em;
+		line-height:40px;
+		margin-right: 90px;
+        
 	}
 
 
@@ -153,7 +174,7 @@
 		position: center;
 	}
 
-
+    
 
 
 	/*solid - border is a solid line.
