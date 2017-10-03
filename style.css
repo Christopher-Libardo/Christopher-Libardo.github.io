@@ -6,7 +6,7 @@
 		background-position:top center;
 		background-size:cover;	
 		position:relative;
-		background-attachment:fixed;/*fixed = img stays elements move, scroll= img moves w elements*/
+		background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
 		/*background-color:#b3cccc;*/
 		margin: 0 auto;
 		height: auto;
@@ -30,7 +30,7 @@
 		background-size:cover;
 		top: -20px;
 		text-align:right; 
-		position: relative;	
+		position: sticky;	
 		
 	}
 
