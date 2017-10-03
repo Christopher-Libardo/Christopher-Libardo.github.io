@@ -155,6 +155,7 @@
 		
         float: left;
 	    text-decoration:none;
+		color: black;
 		width: 110px;
 		height: 45px;
 		display:inline-block;
@@ -167,7 +168,7 @@
 		letter-spacing: 0.06em;
 		line-height:40px;
 		margin-right: 90px;
-		color: black; 
+		 
         
 	}
 
