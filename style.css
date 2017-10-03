@@ -29,8 +29,9 @@
 		background-position:  center center;
 		background-size:cover;
 		top: -9px; 
-		position: absolute;	
-		margin: auto;
+		text-align:center; 
+	        position:relative;	
+		
 		width:100%;
 		
 		
