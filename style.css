@@ -100,7 +100,7 @@
 	}
 
 	.nav {
-		float: right;
+		display: inline;
 		}
 		
 	.water{
