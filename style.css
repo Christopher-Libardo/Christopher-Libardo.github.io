@@ -30,7 +30,7 @@
 		background-size:cover;
 		top: -20px;
 		text-align:right; 
-		position:relative;	
+		position:fixed;	
 		
 	}
 
@@ -142,9 +142,11 @@
 		
 	}
 
-	.logo {display:	block; 
+	.logo 
+        {display:block; 
 	position: center;
-
+        margin: 0 auto;
+		
 	}
 
 
