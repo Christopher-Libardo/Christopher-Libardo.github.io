@@ -1,10 +1,83 @@
+/*@media only screen and (min-width: 1200px){*/
+header {
+  top:0;
+  position:fixed;
+  z-index: 1;
+  background-image: url("dark.png");
+		background-position:  right center;
+		background-size:cover;
+		top: 0px;
+		height:50px;
+		width:100%;
+}
+	 
 
-	body{
+
+ul {
+  list-style-type: none;
+}
+	
+li {
+  display: inline-block;
+  float: right;
+  text-decoration:none;
+		width: 110px;
+		height: 45px;
+		display:inline-block;
+		text-align: center;
+		font-weight:bold;
+		font-family:'Helvetica	';
+		font-size: 17px;
+		white-space: nowrap ;
+		table-layout: fixed;
+		letter-spacing: 0.06em;
+		line-height:20px;
+		margin-right: 90px;
+  
+  
+}
+
+
+	a{
+		text-decoration:none;
+		color:white;
+		width: 100%;
+     cursor: auto;
+    
+	}
+
+
+
+	li:hover a{
+		background-color:#72767c;
+		transition-delay:0.1s;
+		padding: 15px 7px;
+		margin: 0 auto;
+		
+	}
+
+	 li:active a{
+		background-color:#4677c9;
+		padding: 20px 0px;
+	 }
+		
+.nav li{
+		display: inline;
+		}
+		
+	.menu-icon {
+	  background :url(images/menu-icon.png);
+	  display: hiddenk;
+	  width: 60px;
+	  height: 60px;
+	}
+
+body{
 	
 		background-image: url("blue_bg.jpg");
 		background-repeat:no-repeat;/* appears once*/
 		background-position:top center;
-		background-size:cover;	
+		background-size:cover;
 		position:relative;
 		background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
 		/*background-color:#b3cccc;*/
@@ -12,7 +85,8 @@
 		height: auto;
 			/*background: url () no-repeat top center (same thing above);*/
 		/*background-color:#ccccff*/;
-	   /*"https://www.clipartsgram.com/image/840125329-indie-tarot-website-background2.jpg*/
+		padding: 50px 0px;
+		
 	}
 
 
@@ -21,21 +95,7 @@
 	font-size: 40px;
 	font-family:Courier New;}
 
-	ul{
-	/*border-style:ridge;frame*/
-		/*border-style:double;*/
-		/*background-color:#3c6ab2;*/
-		background-image: url('http://cinderwick.ca/files/moto/Wallpaper/Abstract/Polygon-Background3.jpg');
-		background-position:  center center;
-		background-size:cover;
-		top: -16px; 
-		text-align:right; 
-	        position:relative;	
-		
-		width:100%;
-		
-		
-	}
+	
 
 
 
@@ -53,58 +113,11 @@
 		top: -20px;
 	}
 
-	a{
-		text-decoration:none;
-		color:white;
-		width: 100%;
-        height: 100%;
-	    cursor: auto;
-		z-index: 2;
-	}
-
-
-
-	/*li:hover a{
-		background-color:#72767c;
-		transition-delay:0.2s;
-		padding: 15.5px;
-		margin: 0 auto;*/
-		
-	} 
-
-	 li:active a{
-		background-color:#4677c9;
-		padding: 17px 7px;
-	 }
-		
-
-
 	/*.info{position:fixed;}use for postioning*/
 
-	li, .button
-		{
-		text-decoration:none;
-		width: 110px;
-		height: 45px;
-		display:inline-block;
-		text-align: center;
-		font-weight:bold;
-		font-family:'Helvetica	';
-		font-size: 17px;
-		white-space: nowrap ;
-		table-layout: fixed; 
-		letter-spacing: 0.06em;
-		line-height:40px;
-		margin-right: 90px;
-		z-index: 1;
-		
-		
-	}
-
-	.nav {
-		display: inline;
-		}
-		
+	
+	
+	
 	.water{
 		margin: 0 50%;
 		padding: 10px 10px;
@@ -138,15 +151,15 @@
 	.title{
 		font-size: 30px;
 		text-align: justify;
-		font-family:  Courier New; 
+		font-family:  Courier New;
 		margin: 0 auto;
 		max-width: 700px;
 		
 		
 	}
 
-	.logo 
-        {display:block; 
+	.logo
+        {display:block;
 	position: center;
         margin: 0 auto;
 	 z-index: -1;
@@ -157,7 +170,7 @@
 	{
 		
         float: left;
-	    text-decoration:none;
+	    text-decoration:black;
 		color: black;
 		width: 110px;
 		height: 45px;
@@ -167,10 +180,10 @@
 		font-family:'Helvetica	';
 		font-size: 17px;
 		white-space: nowrap ;
-		table-layout: fixed; 
+		table-layout: fixed;
 		letter-spacing: 0.06em;
-		line-height:40px;
-		margin-right: 90px;
+		line-height:20px;
+		padding-left: 20px;
 		 
         
 	}
@@ -180,6 +193,121 @@
 	{
 		position: center;
 	}
+
+
+}
+
+/*
+@media only screen and (max-width: 1200px) {
+  header {
+    position:absolute;}
+    
+    .menu-icon {
+      display: inline-block;
+      
+    }
+    
+    header {
+  top:0;
+  position:fixed;
+  z-index: 1;
+  background-image: url("dark.png");
+		background-position:  right center;
+		background-size:cover;
+		top: 0px;
+		height:50px;
+		width:100%;
+}
+    
+    nav:hover ul
+    {
+      display: block;
+      
+    }
+
+nav li {
+  text-align: center;
+  width: 100%;
+  padding: 15px o;
+  margin: 0;
+}
+
+.name
+{
+  top: 20px;
+}
+
+body{
+	
+		background-image: url("blue_bg.jpg");
+		background-repeat:no-repeat;/* appears once*/
+		background-position:top center;
+		background-size:cover;
+		position:relative;
+		background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
+		/*background-color:#b3cccc;*/
+		margin: 0 auto;
+		height: auto;
+			/*background: url () no-repeat top center (same thing above);
+		/*background-color:#ccccff;
+		padding: 50px 0px;
+		
+	}
+		.name
+	{
+		
+        float: left;
+	    text-decoration:black;
+		color: black;
+		width: 110px;
+		height: 45px;
+		display:inline-block;
+		text-align: center;
+		font-weight:bold;
+		font-family:'Helvetica	';
+		font-size: 17px;
+		white-space: nowrap ;
+		table-layout: fixed;
+		letter-spacing: 0.06em;
+		line-height:20px;
+		padding-left: 20px;
+		 
+        
+	}
+
+
+	.title{
+		font-size: 30px;
+		text-align: justify;
+		font-family:  Courier New;
+		margin: 0 auto;
+		max-width: 700px;
+		
+		
+	}
+   
+.text {
+		font-size:18px;
+		font-family: "Palatino Linotype";
+		max-width: 700px;
+		min-height:200px;
+		/*border: 5px rgb(22, 77, 100);
+		border-style:ridge;
+		border-radius:15px; 100px = circle
+		color: black;
+		text-align: justify;
+		margin: 0 auto;
+		line-height: 40px;
+		letter-spacing: 0.08em;
+		
+.menu-icon, li {
+	  background :url(images/menu-icon.png);
+	  display: hiddenk;
+	  width: 60px;
+	  height: 60px;
+	  text-decoration: none;
+	  list-style-type: none;
+	}*/
 
     
 
