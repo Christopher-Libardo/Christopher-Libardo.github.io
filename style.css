@@ -161,18 +161,26 @@ body{
 	.logo
         {display:block;
 	position: center;
-        margin: 0 auto;
+  margin: 0 auto;
 	 z-index: -1;
 	}
 
+.contact
+{
+  display:inline-block;
+  position: center;
+  margin: 0 auto;
+  z-index: -1;
+  padding: 30px 5px;
+}
 
-	.name
-	{
+.name
+{
 		
-        float: left;
-	    text-decoration:black;
-		color: black;
-		width: 110px;
+ float: left;
+ text-decoration:black;
+color: black;
+width: 110px;
 		height: 45px;
 		display:inline-block;
 		text-align: center;
@@ -207,7 +215,7 @@ body{
       
     }
     
-    header {
+   header {
   top:0;
   position:fixed;
   z-index: 1;
