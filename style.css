@@ -26,13 +26,13 @@ li {
   display:inline-block;
   text-align: center;
   font-weight:bold;
-  font-family:'Helvetica';
-		font-size: 17px;
-		white-space: nowrap ;
-		table-layout: fixed;
-		letter-spacing: 0.06em;
-		line-height:20px;
-		margin-right: 90px;
+  font-family:'Garamond';
+  font-size: 18px;
+  white-space: nowrap ;
+  table-layout: fixed;
+  letter-spacing: 0.06em;
+  line-height:20px;
+  margin-right: 90px;
   
   
 }
