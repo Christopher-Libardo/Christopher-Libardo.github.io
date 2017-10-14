@@ -4,7 +4,7 @@ header {
   position:fixed;
   z-index: 1;
   /*background-image: url("dark.jpg");*/
-  background: black;
+  background: #4d4d4d;
   background-position:  right center;
   background-size:cover;
   top: 0px;
