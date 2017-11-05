@@ -1,11 +1,10 @@
-/*@media only screen and (min-width: 1200px){*/
+@media only screen and (min-width: 1116px) and (max-width: 1900px){
 header {
   top:0;
   position:fixed;
   z-index: 1;
   /*background-image: url("dark.jpg");*/
   background: #1a1a1a;
-  background-position:  right center;
   background-size:cover;
   top: 0px;
   height:50px;
@@ -30,11 +29,11 @@ li {
   font-family:'Garamond';
   font-size: 18px;
   white-space: nowrap ;
-  table-layout: fixed;
   letter-spacing: 0.06em;
   line-height:20px;
   margin-right: 90px;
-  
+  white-space: nowrap ;
+  table-layout: fixed;
   
 }
 
@@ -66,9 +65,8 @@ li {
 		display: inline;
 		}
 		
-	.menu-icon {
-	  background :url(images/menu-icon.png);
-	  display: hiddenk;
+	#menu-icon {
+	  display: hidden;
 	  width: 60px;
 	  height: 60px;
 	}
@@ -181,8 +179,8 @@ body{
 		
  float: left;
  text-decoration:black;
-color: black;
-width: 110px;
+ color: black;
+  width: 110px;
 		height: 45px;
 		display:inline-block;
 		text-align: center;
@@ -203,49 +201,84 @@ width: 110px;
 	{
 		position: center;
 	}
-
-
 }
 
-/*
-@media only screen and (max-width: 1200px) {
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 1116px) {
+ 
   header {
-    position:absolute;}
-    
-    .menu-icon {
-      display: inline-block;
-      
-    }
-    
-   header {
   top:0;
   position:fixed;
   z-index: 1;
-  background-image: url("dark.png");
-		background-position:  right center;
-		background-size:cover;
-		top: 0px;
-		height:50px;
-		width:100%;
+  /*background-image: url("dark.jpg");*/
+  background: #1a1a1a;
+  background-size:cover;
+  top: 0px;
+  height:50px;
+  width:100%;
 }
-    
-    nav:hover ul
-    {
-      display: block;
-      
-    }
-
-nav li {
+	 
+ul {
+  
+  list-style-type: none;
+}
+	
+li {
+  
+  display: inline-block;
+  float: right;
+  text-decoration:none;
+  width: 45px;
+  height: 45px;
+  display:inline-block;
   text-align: center;
-  width: 100%;
-  padding: 15px o;
-  margin: 0;
+  font-weight:bold;
+  font-family:'Garamond';
+  font-size: 18px;
+  white-space: nowrap ;
+  letter-spacing: 0.06em;
+  line-height:20px;
+  margin-right: 90px;
+  white-space: nowrap ;
+  table-layout: fixed;
+  
 }
 
-.name
-{
-  top: 20px;
-}
+
+	a{
+		text-decoration:none;
+		color:white;
+		width: 100%;
+     cursor: auto;
+    
+	}
+
+
+
+	li:hover a{
+		background-color:#72767c;
+		transition-delay:0.1s;
+		padding: 15px 7px;
+		margin: 0 auto;
+		
+	}
+
+	 li:active a{
+		background-color:#4677c9;
+		padding: 20px 0px;
+	 }
+		
+.nav li{
+		display: inline;
+		}
+		
+	#menu-icon {
+	  display: hidden;
+	  width: 60px;
+	  height: 60px;
+	}
 
 body{
 	
@@ -258,18 +291,105 @@ body{
 		/*background-color:#b3cccc;*/
 		margin: 0 auto;
 		height: auto;
-			/*background: url () no-repeat top center (same thing above);
-		/*background-color:#ccccff;
+			/*background: url () no-repeat top center (same thing above);*/
+		/*background-color:#ccccff*/;
 		padding: 50px 0px;
 		
 	}
-		.name
+
+
+
+	h1{text-align: center;
+	font-size: 40px;
+	font-family:Courier New;}
+
+	
+
+
+
+	.doc
 	{
+		background-size: cover;
+
 		
-        float: left;
-	    text-decoration:black;
+		
+	}
+
+	.resume
+	{
+		background-position:block;
+		top: -20px;
+	}
+
+	/*.info{position:fixed;}use for postioning*/
+
+	
+	
+	
+	.water{
+		margin: 0 50%;
+		padding: 10px 10px;
+		width:100px;
+		height:100px;
+		opacity:0.8;
+		float: right;
+		display:block /*block element centered*/
+		
+	}
+
+	.text {
+		font-size:19px;
+		font-family: "Palatino Linotype";
+		max-width: 700px;
+		min-height:200px;
+		/*border: 5px rgb(22, 77, 100);
+		border-style:ridge;
+		border-radius:15px; 100px = circle*/
 		color: black;
-		width: 110px;
+		text-align: justify;
+		margin: 0 auto;
+		line-height: 40px;
+		letter-spacing: 0.08em;
+		
+		
+
+	/*margin:auto;  centered*/
+	}
+
+	.title{
+		font-size: 33px;
+		text-align: justify;
+		font-family:  Courier New;
+		margin: 0 auto;
+		max-width: 700px;
+		letter-spacing: 0.10em;
+		
+		
+	}
+
+	.logo
+        {display:block;
+	position: center;
+  margin: 0 auto;
+	 z-index: -1;
+	}
+
+.contact
+{
+  display:inline-block;
+  position: center;
+  margin: 0 auto;
+  z-index: -1;
+  padding: 10px 4px;
+}
+
+.name
+{
+		
+ float: left;
+ text-decoration:black;
+ color: black;
+  width: 110px;
 		height: 45px;
 		display:inline-block;
 		text-align: center;
@@ -286,55 +406,9 @@ body{
 	}
 
 
-	.title{
-		font-size: 30px;
-		text-align: justify;
-		font-family:  Courier New;
-		margin: 0 auto;
-		max-width: 700px;
-		
-		
+	.video
+	{
+		position: center;
 	}
-   
-.text {
-		font-size:18px;
-		font-family: "Palatino Linotype";
-		max-width: 700px;
-		min-height:200px;
-		/*border: 5px rgb(22, 77, 100);
-		border-style:ridge;
-		border-radius:15px; 100px = circle
-		color: black;
-		text-align: justify;
-		margin: 0 auto;
-		line-height: 40px;
-		letter-spacing: 0.08em;
-		
-.menu-icon, li {
-	  background :url(images/menu-icon.png);
-	  display: hiddenk;
-	  width: 60px;
-	  height: 60px;
-	  text-decoration: none;
-	  list-style-type: none;
-	}*/
+}
 
-    
-
-
-	/*solid - border is a solid line.
-	dashed - border is a series of lines or dashes.
-	dotted - border is a series of square dots.
-	double - border is two solid black lines.
-	groove - border is a groove (or carving).
-	inset - border appears to cut into the screen.
-	outset - border appears to pop out of the screen.
-	ridge - border appears as a picture frame.
-	hidden or none - no border.
-	(top: 3 pixels, right: 1 pixel, bottom: 2 pixels, left: 1 pixel).
-	 border: 3px solid rgb(22, 77, 100);
-	 Padding is the spacing between a box's content and the borders of the box.
-	 Margin is the spacing directly outside of a box's borders.
-	 GRADIENT background-image: -webkit-linear-gradient(#666CCC, #BC1324);
-
-	*/
