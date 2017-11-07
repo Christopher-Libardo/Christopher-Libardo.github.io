@@ -11,13 +11,9 @@ header {
   width:100%;
 }
 	 
-ul {
-  
-  list-style-type: none;
-}
+ul {list-style-type: none;}
 	
 li {
-  
   display: inline-block;
   float: right;
   text-decoration:none;
@@ -34,136 +30,96 @@ li {
   margin-right: 90px;
   white-space: nowrap ;
   table-layout: fixed;
-  
+   }
+
+
+a {
+text-decoration:none;
+color:white;
+width: 100%;
+cursor: auto;
+  }
+
+
+
+li:hover a {
+background-color:#4d4d4d;
+transition-delay:0.1s;
+padding: 15px 7px;
+margin: 0 auto;
 }
 
+li:active a{
+background-color:#4d4d4d;
+padding: 20px 0px;
+}
+		
+.nav li {display: inline;}
+		
+#menu-icon {
+display: hidden;
+width: 60px;
+height: 60px;
+}
 
-	a{
-		text-decoration:none;
-		color:white;
-		width: 100%;
-     cursor: auto;
-    
+body {
+background-image: url("blue_bg.jpg");
+background-repeat:no-repeat;/* appears once*/
+background-position:top center;
+background-size:cover;
+position:relative;
+background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
+/*background-color:#b3cccc;*/
+margin: 0 auto;
+height: auto;
+/*background: url () no-repeat top center (same thing above);*/
+/*background-color:#ccccff*/;
+padding: 50px 0px;
+}
+
+h1 {
+text-align: center;
+font-size: 40px;
+font-family:Courier New;
+}
+
+.doc { background-size: cover; }
+
+.resume {
+background-position:block;
+top: -20px;
 	}
 
+.text {
+font-size:19px;
+font-family: "Palatino Linotype";
+max-width: 700px;
+min-height:200px;
+/*border: 5px rgb(22, 77, 100);
+border-style:ridge;
+border-radius:15px; 100px = circle*/
+color: black;
+text-align: justify;
+margin: 0 auto;
+line-height: 40px;
+letter-spacing: 0.08em;
+}
 
+.title {
+font-size: 33px;
+text-align: justify;
+font-family:  Courier New;
+margin: 0 auto;
+max-width: 700px;
+letter-spacing: 0.10em;	
+}
 
-	li:hover a{
-		background-color:#4d4d4d;
-		transition-delay:0.1s;
-		padding: 15px 7px;
-		margin: 0 auto;
-		
-	}
-
-	 li:active a{
-		background-color:#4d4d4d;
-		padding: 20px 0px;
-	 }
-		
-.nav li{
-		display: inline;
-		}
-		
-	#menu-icon {
-	  display: hidden;
-	  width: 60px;
-	  height: 60px;
-	}
-
-body{
-	
-		background-image: url("blue_bg.jpg");
-		background-repeat:no-repeat;/* appears once*/
-		background-position:top center;
-		background-size:cover;
-		position:relative;
-		background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
-		/*background-color:#b3cccc;*/
-		margin: 0 auto;
-		height: auto;
-			/*background: url () no-repeat top center (same thing above);*/
-		/*background-color:#ccccff*/;
-		padding: 50px 0px;
-		
-	}
-
-
-
-	h1{text-align: center;
-	font-size: 40px;
-	font-family:Courier New;}
-
-	
-
-
-
-	.doc
-	{
-		background-size: cover;
-
-		
-		
-	}
-
-	.resume
-	{
-		background-position:block;
-		top: -20px;
-	}
-
-	/*.info{position:fixed;}use for postioning*/
-
-	
-	
-	
-	.water{
-		margin: 0 50%;
-		padding: 10px 10px;
-		width:100px;
-		height:100px;
-		opacity:0.8;
-		float: right;
-		display:block /*block element centered*/
-		
-	}
-
-	.text {
-		font-size:19px;
-		font-family: "Palatino Linotype";
-		max-width: 700px;
-		min-height:200px;
-		/*border: 5px rgb(22, 77, 100);
-		border-style:ridge;
-		border-radius:15px; 100px = circle*/
-		color: black;
-		text-align: justify;
-		margin: 0 auto;
-		line-height: 40px;
-		letter-spacing: 0.08em;
-		
-		
-
-	/*margin:auto;  centered*/
-	}
-
-	.title{
-		font-size: 33px;
-		text-align: justify;
-		font-family:  Courier New;
-		margin: 0 auto;
-		max-width: 700px;
-		letter-spacing: 0.10em;
-		
-		
-	}
-
-	.logo
-        {display:block;
-	position: center;
-  margin: 0 auto;
-	 z-index: -1;
-	}
+.logo {
+display:block;
+position: center;
+margin: 0 auto;
+z-index: -1;
+}
 
 .contact
 {
@@ -175,32 +131,27 @@ body{
 }
 
 .name
-{
-		
+{	
  float: left;
  text-decoration:black;
  color: black;
-  width: 110px;
-		height: 45px;
-		display:inline-block;
-		text-align: center;
-		font-weight:bold;
-		font-family:'Helvetica	';
-		font-size: 17px;
-		white-space: nowrap ;
-		table-layout: fixed;
-		letter-spacing: 0.06em;
-		line-height:20px;
-		padding-left: 20px;
-		 
-        
-	}
+ width: 110px;
+ height: 45px;
+ display:inline-block;
+ text-align: center;
+ font-weight:bold;
+ font-family:'Helvetica	';
+ font-size: 17px;
+ white-space: nowrap ;
+ table-layout: fixed;
+ letter-spacing: 0.06em;
+ line-height:20px;
+ padding-left: 20px;
+ }
 
 
 	.video
-	{
-		position: center;
-	}
+	{ position: center; }
 }
 
 
@@ -265,7 +216,7 @@ li {
 		
 	}
 
-	 li:active a{
+	li:active a{
 		background-color:#4d4d4d;
 		padding: 20px 0px;
 	 }
@@ -367,12 +318,12 @@ body{
 		
 	}
 
-	.logo
-        {display:block;
-	position: center;
-  margin: 0 auto;
-	 z-index: -1;
-	}
+.logo {
+display:block;
+position: center;
+margin: 0 auto;
+z-index: -1;
+}
 
 .contact
 {
@@ -384,26 +335,23 @@ body{
 }
 
 .name
-{
-		
+{		
  float: left;
  text-decoration:black;
  color: black;
-  width: 110px;
-		height: 45px;
-		display:inline-block;
-		text-align: center;
-		font-weight:bold;
-		font-family:'Helvetica	';
-		font-size: 17px;
-		white-space: nowrap ;
-		table-layout: fixed;
-		letter-spacing: 0.06em;
-		line-height:20px;
-		padding-left: 20px;
-		 
-        
-	}
+ width: 110px;
+ height: 45px;
+ display:inline-block;
+ text-align: center;
+ font-weight:bold;
+ font-family:'Helvetica	';
+ font-size: 17px;
+ white-space: nowrap ;
+ table-layout: fixed;
+ letter-spacing: 0.06em;
+ line-height:20px;
+ padding-left: 20px;    
+}
 
 
 	.video
