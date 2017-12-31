@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1116px) {
 header {
   top:0;
-  position:fixed;
+  position:absolute;
   z-index: 1;
   /*background-image: url("dark.jpg");*/
   background: #1a1a1a;
@@ -11,15 +11,18 @@ header {
   width:100%;
 }
 	 
-ul {list-style-type: none;}
+ul {
+  
+  list-style-type: none;
+}
 	
 li {
+  
   display: inline-block;
   float: right;
   text-decoration:none;
   width: 110px;
   height: 45px;
-  display:inline-block;
   text-align: center;
   font-weight:bold;
   font-family:'Garamond';
@@ -30,129 +33,169 @@ li {
   margin-right: 90px;
   white-space: nowrap ;
   table-layout: fixed;
-   }
-
-
-a {
-text-decoration:none;
-color:white;
-width: 100%;
-cursor: auto;
-  }
-
-
-
-li:hover a {
-background-color:#4d4d4d;
-transition-delay:0.1s;
-padding: 15px 7px;
-margin: 0 auto;
+  
 }
 
-li:active a{
-background-color:#4d4d4d;
-padding: 20px 0px;
-}
-		
-.nav li {display: inline;}
-		
-#menu-icon {
-display: hidden;
-width: 60px;
-height: 60px;
-}
 
-body {
-background-image: url("blue_bg.jpg");
-background-repeat:no-repeat;/* appears once*/
-background-position:top center;
-background-size:cover;
-position:relative;
-background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
-/*background-color:#b3cccc;*/
-margin: 0 auto;
-height: auto;
-/*background: url () no-repeat top center (same thing above);*/
-/*background-color:#ccccff*/;
-padding: 50px 0px;
-}
-
-h1 {
-text-align: center;
-font-size: 40px;
-font-family:Courier New;
-}
-
-.doc { background-size: cover; }
-
-.resume {
-background-position:block;
-top: -20px;
+	a{
+		text-decoration:none;
+		color:white;
+		width: 100%;
+     cursor: auto;
+    
 	}
 
-.text {
-font-size:19px;
-font-family: "Palatino Linotype";
-max-width: 700px;
-min-height:200px;
-/*border: 5px rgb(22, 77, 100);
-border-style:ridge;
-border-radius:15px; 100px = circle*/
-color: black;
-text-align: justify;
-margin: 0 auto;
-line-height: 40px;
-letter-spacing: 0.08em;
-}
 
-.title {
-font-size: 33px;
-text-align: justify;
-font-family:  Courier New;
-margin: 0 auto;
-max-width: 700px;
-letter-spacing: 0.10em;	
-}
 
-.logo {
-display:block;
-position: center;
-margin: 0 auto;
-z-index: -1;
-}
+	li:hover a{
+		background-color:#4d4d4d;
+		transition-delay:0.1s;
+		padding: 15px 7px;
+		margin: 0 auto;
+		
+	}
+
+	 li:active a{
+		background-color:#4d4d4d;
+		padding: 20px 0px;
+	 }
+		
+.nav li{
+		display: inline;
+		}
+		
+	#menu-icon {
+	  display: hidden;
+	  width: 60px;
+	  height: 60px;
+	}
+
+body{
+	
+		background-image: url("blue_bg.jpg");
+		background-repeat:no-repeat;/* appears once*/
+		background-position:top center;
+		background-size:cover;
+		position:relative;
+		background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
+		/*background-color:#b3cccc;*/
+		margin: 0 auto;
+		height: auto;
+			/*background: url () no-repeat top center (same thing above);*/
+		/*background-color:#ccccff*/;
+		padding: 50px 0px;
+		
+	}
+
+
+
+	h1{text-align: center;
+	font-size: 40px;
+	font-family:Courier New;}
+
+	
+
+
+
+	.doc
+	{
+		background-size: cover;
+
+		
+		
+	}
+
+	.resume
+	{
+		background-position:block;
+		top: -20px;
+	}
+
+	/*.info{position:fixed;}use for postioning*/
+
+	
+	
+	
+
+	.text {
+		font-size:19px;
+		font-family: "Palatino Linotype";
+		max-width: 700px;
+		min-height:200px;
+		/*border: 5px rgb(22, 77, 100);
+		border-style:ridge;
+		border-radius:15px; 100px = circle*/
+		color: black;
+		text-align: justify;
+		margin: 0 auto;
+		line-height: 40px;
+		letter-spacing: 0.08em;
+		
+		
+
+	/*margin:auto;  centered*/
+	}
+
+	.title{
+		font-size: 33px;
+		text-align: justify;
+		font-family:  Courier New;
+		margin: 0 auto;
+		max-width: 700px;
+		letter-spacing: 0.10em;
+		
+		
+	}
+
+	.logo
+        {display:block;
+	position: center;
+  margin: 0 auto;
+	 z-index: -1;
+	}
 
 .contact
 {
   display:inline-block;
-  position: center;
+  position: center center;
   margin: 0 auto;
   z-index: -1;
   padding: 10px 4px;
 }
 
 .name
-{	
+{
+		
  float: left;
  text-decoration:black;
  color: black;
- width: 110px;
- height: 45px;
- display:inline-block;
- text-align: center;
- font-weight:bold;
- font-family:'Helvetica	';
- font-size: 17px;
- white-space: nowrap ;
- table-layout: fixed;
- letter-spacing: 0.06em;
- line-height:20px;
- padding-left: 20px;
- }
+  width: 110px;
+		height: 45px;
+		display:inline-block;
+		text-align: center;
+		font-weight:bold;
+		font-family:'Helvetica	';
+		font-size: 17px;
+		white-space: nowrap ;
+		table-layout: fixed;
+		letter-spacing: 0.06em;
+		line-height:20px;
+		padding-left: 20px;
+		 
+        
+	}
 
 
 	.video
-	{ position: center; }
+	{
+		position: center;
+	}
 }
+
+
+
+
+
 
 
 
@@ -160,7 +203,7 @@ z-index: -1;
 @media only screen and (min-width: 300px) and (max-width: 1116px) {
  
   header {
-  top:0;
+  top: 0;
   position:fixed;
   z-index: 1;
   /*background-image: url("dark.jpg");*/
@@ -181,7 +224,7 @@ li {
   display: inline-block;
   float: right;
   text-decoration:none;
-  width: 10px;
+  width: 1px;
   height: 45px;
   display:inline-block;
   text-align: center;
@@ -198,7 +241,8 @@ li {
 }
 
 
-	a{
+	a
+	{
 		text-decoration:none;
 		color:white;
 		width: 100%;
@@ -208,7 +252,8 @@ li {
 
 
 
-	li:hover a{
+	li:hover a
+	{
 		background-color:#4d4d4d;
 		transition-delay:0.1s;
 		padding: 15px 3px;
@@ -216,7 +261,7 @@ li {
 		
 	}
 
-	li:active a{
+	 li:active a{
 		background-color:#4d4d4d;
 		padding: 20px 0px;
 	 }
@@ -229,6 +274,7 @@ li {
 	  display: hidden;
 	  width: 60px;
 	  height: 60px;
+	  display:inline-block;
 	}
 
 body{
@@ -318,45 +364,64 @@ body{
 		
 	}
 
-.logo {
-display:block;
-position: center;
-margin: 0 auto;
-z-index: -1;
+	.logo
+        {display:block;
+	position: center;
+  margin: 0 auto;
+	 z-index: -1;
+	}
+
+.name
+{
+		
+ float: left;
+ text-decoration:black;
+ color: black;
+  width: 110px;
+		height: 45px;
+		display:inline-block;
+		text-align: center;
+		font-weight:bold;
+		font-family:'Helvetica';
+		font-size: 17px;
+		white-space: nowrap ;
+		table-layout: fixed;
+		letter-spacing: 0.06em;
+		line-height:20px;
+		padding-left: 20px;
+		 
+        
+	}
+}
+
+
+
+
+footer {
+  position: absolute;
+  left: 0;
+  height:199px;
+  width: 100%;
+  background-color: black;
+
+}
+
+.Connect
+{
+  color: white;
+  font-size: 33px;
+		text-align: justify;
+		font-family:  Courier New;
+		margin: 0 auto;
+		max-width: 700px;
+		letter-spacing: 0.15em;
+  
 }
 
 .contact
 {
-  display:inline-block;
-  position: center;
-  margin: 0 auto;
-  z-index: -1;
-  padding: 10px 4px;
+  display:inline;
+  margin: auto;
+  position:center;
+ 	 
 }
-
-.name
-{		
- float: left;
- text-decoration:black;
- color: black;
- width: 110px;
- height: 45px;
- display:inline-block;
- text-align: center;
- font-weight:bold;
- font-family:'Helvetica	';
- font-size: 17px;
- white-space: nowrap ;
- table-layout: fixed;
- letter-spacing: 0.06em;
- line-height:20px;
- padding-left: 20px;    
-}
-
-
-	.video
-	{
-		position: center;
-	}
-}
-
