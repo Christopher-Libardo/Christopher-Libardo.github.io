@@ -174,7 +174,7 @@ body{
 		display:inline-block;
 		text-align: center;
 		font-weight:bold;
-		font-family:'Helvetica	';
+		font-family:'Garamon';
 		font-size: 17px;
 		white-space: nowrap ;
 		table-layout: fixed;
@@ -274,7 +274,7 @@ li {
 	  display: hidden;
 	  width: 60px;
 	  height: 60px;
-	  display:inline-block;
+	  
 	}
 
 body{
@@ -382,7 +382,7 @@ body{
 		display:inline-block;
 		text-align: center;
 		font-weight:bold;
-		font-family:'Helvetica';
+		font-family:'Garamond';
 		font-size: 17px;
 		white-space: nowrap ;
 		table-layout: fixed;
