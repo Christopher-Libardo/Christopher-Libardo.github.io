@@ -71,7 +71,7 @@ li {
 	}
 
 body{
-	background-image: url("blue_bg.jpg");
+	background-color: #FCFCFC;
 	background-repeat:no-repeat;/* appears once*/
 	background-position:top center;
 	background-size:cover;
@@ -283,7 +283,7 @@ li {
 
 body{
 	
-		background-image: url("blue_bg.jpg");
+		background-color: #FCFCFC;
 		background-repeat:no-repeat;/* appears once*/
 		background-position:top center;
 		background-size:cover;
