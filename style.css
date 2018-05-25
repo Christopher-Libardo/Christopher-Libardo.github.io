@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1116px) {
 header {
   top:0;
   position:absolute;
@@ -10,7 +10,7 @@ header {
   height:50px;
   width:100%;
 }
-	
+	 
 ul {
   
   list-style-type: none;
@@ -71,29 +71,31 @@ li {
 	}
 
 body{
-	background-color: #FCFCFC;
-	background-repeat:no-repeat;/* appears once*/
-	background-position:top center;
-	background-size:cover;
-	position:relative;
-	background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
-	/*background-color:#b3cccc;*/
-	margin: 0 auto;
-	height: auto;
-	/*background: url () no-repeat top center (same thing above);*/
-	/*background-color:#ccccff*/;
-	padding: 50px 0px;
+	
+		background-image: url("blue_bg.jpg");
+		background-repeat:no-repeat;/* appears once*/
+		background-position:top center;
+		background-size:cover;
+		position:relative;
+		background-attachment:scroll;/*fixed = img stays elements move, scroll= img moves w elements*/
+		/*background-color:#b3cccc;*/
+		margin: 0 auto;
+		height: auto;
+			/*background: url () no-repeat top center (same thing above);*/
+		/*background-color:#ccccff*/;
+		padding: 50px 0px;
 		
 	}
 
 
 
-	h1
-	{
-	text-align: center;
+	h1{text-align: center;
 	font-size: 40px;
-	font-family:Courier New;
-	}
+	font-family:Courier New;}
+
+	
+
+
 
 	.doc
 	{
@@ -168,28 +170,22 @@ body{
  text-decoration:black;
  color: black;
   width: 110px;
-height: 45px;
-display:inline-block;
+		height: 45px;
+		display:inline-block;
 		text-align: center;
 		font-weight:bold;
-		font-family:'Garamon';
+		font-family:'Helvetica	';
 		font-size: 17px;
 		white-space: nowrap ;
 		table-layout: fixed;
 		letter-spacing: 0.06em;
 		line-height:20px;
-		padding-left: 20px;	 
+		padding-left: 20px;
+		 
+        
 	}
 
-footer 
-{
-  position: absolute;
-  left: 0;
-  height:199px;
-  width: 100%;
-  background-color: black;
-  bottom: 0
-}
+
 	.video
 	{
 		position: center;
@@ -204,7 +200,7 @@ footer
 
 
 
-@media only screen and (min-width: 300px) and (max-width: 1000px) {
+@media only screen and (min-width: 300px) and (max-width: 1116px) {
  
   header {
   top: 0;
@@ -278,12 +274,12 @@ li {
 	  display: hidden;
 	  width: 60px;
 	  height: 60px;
-	  
+	  display:inline-block;
 	}
 
 body{
 	
-		background-color: #FCFCFC;
+		background-image: url("blue_bg.jpg");
 		background-repeat:no-repeat;/* appears once*/
 		background-position:top center;
 		background-size:cover;
@@ -386,7 +382,7 @@ body{
 		display:inline-block;
 		text-align: center;
 		font-weight:bold;
-		font-family:'Garamond';
+		font-family:'Helvetica';
 		font-size: 17px;
 		white-space: nowrap ;
 		table-layout: fixed;
@@ -407,7 +403,7 @@ footer {
   height:199px;
   width: 100%;
   background-color: black;
-  bottom: 0
+
 }
 
 .Connect
